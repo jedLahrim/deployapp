@@ -5,7 +5,7 @@ import { typeormOptions } from './config/config';
 import { TypeOrmModule } from "@nestjs/typeorm";
 
 @Module({
-  imports: [TypeOrmModule.forRoot(typeormOptions)],
+  imports: [],
   controllers: [AppController],
   providers: [AppService],
 })
