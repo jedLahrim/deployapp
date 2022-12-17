@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "env": {
+    "TYPE_ORM_OPTIONS": "@shop_api_mongo_uri"
+  },
   "builds": [
     {
       "src": "src/main.ts",
