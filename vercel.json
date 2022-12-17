@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "env": {
-    "TYPE_ORM_OPTIONS": "{  type: 'mysql',  host: 'localhost',  port: 8889,  username: 'root', password: 'root',  database: 'deploy_app',  synchronize: true,  autoLoadEntities: true}"
-  },
   "builds": [
     {
       "src": "src/main.ts",
